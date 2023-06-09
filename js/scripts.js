@@ -24,7 +24,7 @@ function newItem(){
          
 
          li.on("dblclick", crossOut);
-         li.on("dbtap", crossOut);
+         li.on("taphold", crossOut);
          
         //  li.on('doubletap', crossOut);
       
