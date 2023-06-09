@@ -47,7 +47,7 @@ function newItem(){
         var keycode = (event.keyCode ? event.keyCode : event.which);
         if(keycode == '13'){
           newItem();
-          $('#list').remove(li);
+          $('#list').prev().remove(li);
 
        }
         event.stopPropagation();
