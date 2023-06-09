@@ -51,7 +51,9 @@ function newItem(){
           if(inputValue.val()===$('#list').prev().val()||$('#list').next().val()){
           $('#list').prev().remove(li);
           $('#list').next().remove(li);
+           
           }
+          $('#list').sortable();
        }
         event.stopPropagation();
       });
