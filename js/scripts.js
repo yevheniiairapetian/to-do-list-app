@@ -9,7 +9,7 @@ function newItem(){
        
     
        if (inputValue === '') {
-         alert("You must write something!");
+         alert("Please enter your list item!!");
        } else {
          $('#list').append(li);
        }
@@ -42,21 +42,21 @@ function newItem(){
        $('#list').sortable(); 
     }
     
-     function enterPress(){
-      $('#input').keypress(function(event){
-        var keycode = (event.keyCode ? event.keyCode : event.which);
-        if(keycode == '13'){
-          newItem();
-          let inputValue = $("#input").val();
-          if(inputValue.val()===$('#list').prev().val()||inputValue.val()===$('#list').next().val()){
-          $('#list').prev().remove(li);
-          $('#list').next().remove(li);
+    //  function enterPress(){
+    //   $('#input').keypress(function(event){
+    //     var keycode = (event.keyCode ? event.keyCode : event.which);
+    //     if(keycode == '13'){
+    //       newItem();
+    //       let inputValue = $("#input").val();
+    //       if(inputValue.val()===$('#list').prev().val()||inputValue.val()===$('#list').next().val()){
+    //       $('#list').prev().remove(li);
+    //       $('#list').next().remove(li);
            
-          }
-          $('#list').sortable();
-       }
-        event.stopPropagation();
-      });
-     }
+    //       }
+    //       $('#list').sortable();
+    //    }
+    //     event.stopPropagation();
+    //   });
+    //  }
 
-     enterPress();
+    //  enterPress();
