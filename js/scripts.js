@@ -6,6 +6,7 @@ function newItem(){
        let li = $("<li></li>");
        let inputValue = $("#input").val();
        li.append(inputValue);
+       
     
        if (inputValue === '') {
          alert("You must write something!");
@@ -23,6 +24,9 @@ function newItem(){
          
 
          li.on("dblclick", crossOut);
+         li.on("taphold", crossOut);
+         
+        //  li.on('doubletap', crossOut);
       
      //3(i). Adding the delete button "X": 
        let crossOutButton = $("<crossOutButton></crossOutButton>");
@@ -35,9 +39,17 @@ function newItem(){
              li.addClass("delete")
          }
      // 4. Reordering the items: 
-       $('#list').sortable();
-       $("#list").disableSelection();
-    
+       $('#list').sortable(); 
     }
     
-     
+     function enterPress(){
+      $('#input').keypress(function(event){
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if(keycode == '13'){
+          newItem();
+       }
+        event.stopPropagation();
+      });
+     }
+
+     enterPress();
