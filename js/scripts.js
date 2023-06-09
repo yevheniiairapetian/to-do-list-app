@@ -48,8 +48,9 @@ function newItem(){
         if(keycode == '13'){
           newItem();
           let inputValue = $("#input").val();
-          if(inputValue.val()===$('#list').prev().val()){
+          if(inputValue.val()===$('#list').prev().val()||$('#list').next().val()){
           $('#list').prev().remove(li);
+          $('#list').next().remove(li);
           }
        }
         event.stopPropagation();
