@@ -18,7 +18,7 @@ function newItem(){
              li.toggleClass("strike");
          }
     
-         li.on("dbltap", crossOut);
+       
        
          
 
