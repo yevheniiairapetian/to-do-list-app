@@ -47,8 +47,10 @@ function newItem(){
         var keycode = (event.keyCode ? event.keyCode : event.which);
         if(keycode == '13'){
           newItem();
+          let inputValue = $("#input").val();
+          if(inputValue.val()===$('#list').prev().val()){
           $('#list').prev().remove(li);
-
+          }
        }
         event.stopPropagation();
       });
