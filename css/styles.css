@@ -44,6 +44,10 @@ ol li:nth-child(even){background: #dfdfdf;}
 
 .strike{text-decoration: line-through;}
 
+li{
+	word-wrap: break-word;
+}
+
 li:hover{
   cursor: pointer;
  }
