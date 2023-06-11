@@ -18,10 +18,6 @@ function newItem(){
        function crossOut() {
              li.toggleClass("strike");
          }
-    
-       
-       
-         
 
         //  li.on("dblclick", crossOut);
          li.on("taphold", crossOut);
@@ -42,21 +38,17 @@ function newItem(){
        $('#list').sortable(); 
     }
     
-    //  function enterPress(){
-    //   $('#input').keypress(function(event){
-    //     var keycode = (event.keyCode ? event.keyCode : event.which);
-    //     if(keycode == '13'){
-    //       newItem();
-    //       let inputValue = $("#input").val();
-    //       if(inputValue.val()===$('#list').prev().val()||inputValue.val()===$('#list').next().val()){
-    //       $('#list').prev().remove(li);
-    //       $('#list').next().remove(li);
-           
-    //       }
-    //       $('#list').sortable();
-    //    }
-    //     event.stopPropagation();
-    //   });
-    //  }
 
-    //  enterPress();
+    //Test function for adding 
+    // a list item when 
+    // pressing enter
+
+
+    // $('#input').on("keydown", function (e) {
+    //   if ((e.keyCode === 13)&&(inputValue!=='')) {
+
+    //     $('#list').append(li);}
+    //    else if (inputValue === '') {
+    //     alert("Please enter your list item!!");
+    //   }
+    // })
