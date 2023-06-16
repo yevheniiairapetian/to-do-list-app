@@ -19,8 +19,11 @@ function newItem(){
              li.toggleClass("strike");
          }
 
-        //  li.on("dblclick", crossOut);
-         li.on("taphold", crossOut);
+
+        //  li.on('doubletap', crossOut);
+
+         li.on("dblclick", crossOut);
+         li.on("hold", crossOut);
          
         //  li.on('doubletap', crossOut);
       
