@@ -23,7 +23,7 @@ function newItem(){
         //  li.on('doubletap', crossOut);
 
          li.on("dblclick", crossOut);
-         li.on("hold", crossOut);
+         li.on("touchend", crossOut);
          
         //  li.on('doubletap', crossOut);
       
