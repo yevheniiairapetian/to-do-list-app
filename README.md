@@ -9,5 +9,7 @@
 #### Html
 #### CSS
 #### jQuery
+### Project dependencies:
+#### jQuery
 
 
