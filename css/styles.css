@@ -8,7 +8,8 @@ background: #dfdfdf;
 
 .container{
 padding: 20px;
-width: 300px;
+width:80%;
+
 margin: 0 auto;
 margin-top: 40px;
 background: white;
@@ -21,8 +22,11 @@ display: inline-block;
 input{
 padding: 4px 15px 4px 5px;
 }
-
-#button{
+.dropped-to-div{
+	width:400px;
+	height: 400px;
+}
+.button{
 display: inline-block;
 background-color:#fc999b;
 color:#ffffff;
@@ -31,10 +35,33 @@ text-align:center;
 margin-top:2px;
 padding: 5px 15px;
 }
+.save-edits{
+	border:none;
+	display: inline-block;
+background-color:#fc999b;
+color:#ffffff;
+border-radius: 5px;
+text-align:center;
+margin-top:2px;
+padding: 5px 15px;
+}
 
-#button:hover{
+.save-edits:hover{
+	cursor: pointer;
+	opacity: .8;
+}
+.button2{
+	display: inline-block;
+}
+.button2:hover{
+	cursor: pointer;
+	opacity: .8;}
+.button:hover{
 cursor: pointer;
 opacity: .8;}
+.new-list:hover{
+	cursor: pointer;
+	opacity: .8;}
 
 ol {padding-left: 20px;}
 
@@ -51,12 +78,51 @@ li{
 li:hover{
   cursor: pointer;
  }
+{
+	/* margin-left:20px; */
+	/* border: 1px solid black;
+	color: #FFF;
+	font-weight: bold;
+	padding:5px; */
+ }
 
+ .ui-widget-header,.ui-state-default, .ui-button{
+	outline:none;
+	background:#fc999b;
+	padding:5px;
+	border: 1px solid white;
+	color: #fff;
+	font-weight: bold;
+ }
+
+ .dialog-paragraph{
+	background-color: white;
+	padding:10px 20px;
+ }
+
+#dialog{
+	
+	display:none;
+	/* width: 200px;
+	height: 100px;
+	background-color: pink;
+	color: white; */
+	/* position: fixed; */
+	/* top: 50%; */
+	/* margin: 0 auto; */
+}
 .delete {
 	display: none;
 }
 
 li > crossOutButton {
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+div > crossOutButton {
 	background: none;
 	border: none;
 	float: right;
