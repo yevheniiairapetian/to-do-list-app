@@ -11,5 +11,10 @@
 #### jQuery
 ### Project dependencies:
 #### jQuery
+### [App's URL](https://yevheniiairapetian.github.io/to-do-list-app/)
+#### To clone the app use the `git clone git@github.com:yevheniiairapetian/to-do-list-app.git`command 
+#### or download directly pressing on `<> Code` button > `Download ZIP`. 
+#### Then open the `index.html` file to view the app in your preferred browser.
+#### Feel free to contact me [here](https://www.linkedin.com/in/yevhenii-airapetian/) or [here](mailto:sonkozhenia11@gmail.com)! Have a nice day!
 
 
