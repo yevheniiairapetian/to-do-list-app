@@ -5,7 +5,7 @@
 ### 2. Remove a to-do from the list.
 ### 3. Mark the to-do as done by striking through it.
 ### 4. Rearrange the to-dos in the list (mobile and desktop).
-### 5. Add a editable topic-related list with the future to-dos that is saved to the user's web storage (currently under development).
+### 5. Add an editable topic-related list with the future to-dos that is saved to the user's web storage (currently under development).
 ### Technologies used:
 #### Html
 #### CSS
