@@ -11,7 +11,10 @@ function checkEdits() {
   // $( function() {
   //   $( document ).tooltip();
   // } );
-  
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
 function newItem(){
   
     //javascript
@@ -72,7 +75,7 @@ function newItem(){
       //  let inputValue = $("#input").val();
        title.text('New List');
        title.attr('contenteditable',"true");
-       let saveEdits = $('<input type="button" class="save-edits" value="Save My Edits" title="Click to save your edits" onclick="saveEdits()"/>');
+       let saveEdits = $('<input type="button" class="save-edits" value="Save My Edits" data-bs-toggle="tooltip" data-bs-placement="right" title="Click to save your edits" onclick="saveEdits()"/>');
        div.append(saveEdits);
        
        
