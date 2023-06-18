@@ -20,6 +20,7 @@ function newItem(){
     //javascript
     //1. Adding a new item to the list of items: 
        let li = $("<li></li>");
+       
        let inputValue = $("#input").val();
       //  $('#input').on('hover', tooltip());
        li.append(inputValue);
@@ -37,8 +38,17 @@ function newItem(){
        function crossOut() {
              li.toggleClass("strike");
          }
-
-
+         function selectListItems(event) {
+          if (event.ctrlKey){
+            $('#list').text('');
+          // } else {
+          //   text = "The Ctrl key was NOT pressed!";
+          // }
+          // document.getElementById("demo").innerHTML = text;
+        }
+      }
+      
+      
         //  li.on('doubletap', crossOut);
 
          li.on("dblclick", crossOut);
@@ -57,8 +67,28 @@ function newItem(){
              li.addClass("delete")
          }
      // 4. Reordering the items: 
+     $('#list').on('mousedown', function(event){
+      selectListItems(event);
+     })
+     $('#list').on("taphold", function(event){
+      selectListItems(event);
+     });
        $('#list').sortable(); 
+       
     }
+
+    function clearInput(){
+      
+
+      $('#input').val('');
+    
+  }
+
+  // let sweepSound = new Audio("/assets/sweep.wav");
+      
+  //       $('.sweep').on('click', function(){
+  //         sweepSound.play();
+  //       })
     
     function addList(){
       
@@ -75,7 +105,7 @@ function newItem(){
       //  let inputValue = $("#input").val();
        title.text('New List');
        title.attr('contenteditable',"true");
-       let saveEdits = $('<input type="button" class="save-edits" value="Save My Edits" data-bs-toggle="tooltip" data-bs-placement="right" title="Click to save your edits" onclick="saveEdits()"/>');
+       let saveEdits = $('<input type="button" tabindex="5" class="save-edits" value="Save My Edits" data-bs-toggle="tooltip" data-bs-placement="right" title="Click to save your edits" onclick="saveEdits()"/>');
        div.append(saveEdits);
        
        

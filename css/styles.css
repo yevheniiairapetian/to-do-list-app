@@ -26,6 +26,12 @@ padding: 4px 15px 4px 5px;
 	width:400px;
 	height: 400px;
 }
+.broom{
+	/* display:none; */
+}
+/* .button-flip{
+	transform:translate(10px, 10px);
+} */
 .button{
 display: inline-block;
 background-color:#fc999b;
