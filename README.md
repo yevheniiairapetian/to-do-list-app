@@ -6,6 +6,7 @@
 ### 3. Mark the to-do as done by striking through it.
 ### 4. Rearrange the to-dos in the list (mobile and desktop).
 ### 5. Add an editable topic-related list with the future to-dos that is saved to the user's web storage (currently under development).
+### 6. The user gets notified when the to-do wasn't entered by means of a modal.
 ### Technologies used:
 #### Html
 #### CSS
