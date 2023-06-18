@@ -72,7 +72,7 @@ function newItem(){
       //  let inputValue = $("#input").val();
        title.text('New List');
        title.attr('contenteditable',"true");
-       let saveEdits = $('<input type="button" class="save-edits" value="save my edits" title="Click to save your edits" onclick="saveEdits()"/>');
+       let saveEdits = $('<input type="button" class="save-edits" value="Save My Edits" title="Click to save your edits" onclick="saveEdits()"/>');
        div.append(saveEdits);
        
        

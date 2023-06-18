@@ -10,35 +10,48 @@
 </head>
 
 <body>
+	<!-- start of container div -->
 	<div class="container">
-		
-	<h2>To Do List App</h2>
-		<p><em> Desktop or laptop devices: enter your next to-do and press <strong>"Add"</strong>. <strong>Double-click</strong> to mark an item off,
-				click on <strong>"X"</strong> to delete an item, and drag items to reorder. Click the <strong>"Add New List"</strong> button to add an editable topic-related list of to-dos. <br><br>Touch screen devices: one tap to mark an
-				item off, click on <strong>"X"</strong> to delete an item, tap and move to reorder. Click the <strong>"Add New List"</strong> button to add an editable topic-related list of to-dos.</em><br></p>
+		<!-- description -->
+		<h2>To Do List App</h2>
+		<p><em> Desktop or laptop devices: enter your next to-do and press <strong>"Add New To-do"</strong>.
+				<strong>Double-click</strong> to mark an item off, click on <strong>"X"</strong> to delete an item, and
+				drag items to reorder. Click the <strong>"Add New
+					List"</strong> button to add an editable topic-related list of to-dos. <br><br>Touch screen devices:
+				enter your next to-do and press <strong>"Add New To-do"</strong>.
+				One tap to mark an item off, click on <strong>"X"</strong> to delete an item, tap and move to reorder.
+				Click the
+				<strong>"Add New List"</strong> button to add an editable topic-related list of to-dos.</em><br></p>
+		<!-- end of description -->
 
+		<!-- to do form -->
 		<form name="toDoList">
-			<input type="text" title="Start typing the new list item" name="ListItem" id="input" />
+			<input type="text" placeholder="Feed the cat, rule the world" title="Start typing the new list item"
+				name="ListItem" id="input" />
 		</form>
+		<!-- end to-do form -->
+		<!-- button to add new topic unrelated item -->
+		<div onclick="newItem()" class="button" title="Click to add the new list item">Add New To-do</div>
+		<!-- end of this button -->
 
-		<div onclick="newItem()" class="button" title="Click to add the new list item">Add</div>
-		<div onclick="addList()" class="button button2" title="Click to add the new list">
-			Add New List
-			
-			<!-- </div> -->
-			<!-- <br /> -->
-			<!-- <ol id="list"></ol> -->
-		</div>
-		
-			<ol id="list"></ol>
-		
+		<!-- button to add new topic-related list -->
+		<div onclick="addList()" class="button button2" title="Click to add the new list">Add New List</div>
+		<!-- end of this button -->
+
+		<!-- the ordered list with to-dos -->
+		<ol id="list"></ol>
+
 		<br />
+
+		<!-- end of ordered list with to-dos -->
+
+		<!-- jQuery dialog when the user doesn't enter a value -->
 		<div id="dialog" title="">
 			<p class="dialog-paragraph">Please enter the list item and press 'Add button'.</p>
-		  </div>
-		
+		</div>
+		<!-- end of dialog -->
 	</div>
-	
+	<!-- end of container div -->
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
 		integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
@@ -59,4 +72,4 @@
 
 </body>
 
-</html
+</html>
