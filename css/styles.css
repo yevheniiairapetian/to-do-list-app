@@ -41,6 +41,10 @@ text-align:center;
 margin-top:2px;
 padding: 5px 15px;
 }
+
+.material-symbols-outlined{
+	font-size:12px;
+}
 .save-edits{
 	border:none;
 	display: inline-block;
