@@ -48,6 +48,11 @@ function newItem(){
         }
       }
       
+function clearUl(){
+    $('.clear-ul').on('click', function(){
+ $('#list').text('');
+})
+}
       
         //  li.on('doubletap', crossOut);
 
