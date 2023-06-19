@@ -64,7 +64,7 @@ function newItem(){
      //3(i). Adding the delete button "X": 
 
     let editButton = $("<editButton></editButton>");
-         editButton.append(document.createTextNode("</>"));
+         editButton.append(document.createTextNode("+"));
          li.append(editButton);
     
          editButton.on("click", editList);
@@ -79,7 +79,7 @@ function newItem(){
              li.addClass("delete")
          }
 function editList(){
-             li.attr("contenteditable", "true")
+             li.attr('contenteditable', "true")
          }
      // 4. Reordering the items: 
      $('#list').on('mousedown', function(event){
@@ -98,7 +98,7 @@ function editList(){
       $('#input').val('');
     
   }
-      ('#list').attr('contenteditable',"true");
+   
   // let sweepSound = new Audio("/assets/sweep.wav");
       
   //       $('.sweep').on('click', function(){
