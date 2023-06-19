@@ -88,6 +88,8 @@ ol {padding-left: 20px;}
 
 ol li {padding: 10px 5px;color:#000;}
 
+ol li:first-child{padding-top: 12px}
+
 ol li:nth-child(even){background: #dfdfdf;}
 
 .strike{text-decoration: line-through;}
