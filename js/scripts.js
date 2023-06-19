@@ -20,7 +20,8 @@ function newItem(){
     //javascript
     //1. Adding a new item to the list of items: 
        let li = $("<li></li>");
-       
+
+       li.attr('contenteditable',"true");       
        let inputValue = $("#input").val();
       //  $('#input').on('hover', tooltip());
        li.append(inputValue);
