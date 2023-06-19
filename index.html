@@ -21,62 +21,22 @@
 	<div class="container">
 		<!-- description -->
 		<h2>To Do List App</h2>
-		<p><em> Desktop or laptop devices: enter your next to-do and press <strong>"Add New To-do"</strong>.
+		<p><em> Desktop or laptop devices: Click on <strong>"Add New List"</strong> to create a topic-related list of To-dos.
 				<strong>Double-click</strong> to mark an item off, click on <strong>"X"</strong> to delete an item, and
-				drag items to reorder. Click the <strong>"Add New
-					List"</strong> button to add an editable topic-related list of to-dos. If you want to delete all
+				drag items to reorder. If you want to delete all
 				to-dos at once, press <strong><code>CTRL + Left Mouse Click</code></strong> on any to-do or click the <strong> trash button</strong>. Click the
-				<strong>broom</strong> button to clean up the input field.<br><br>Touch screen devices:
-				enter your next to-do and press <strong>"Add New To-do"</strong>.
-				One tap to mark an item off, click on <strong>"X"</strong> to delete an item, tap and move to reorder.
-				<strong>"Add New List"</strong> button to add an editable topic-related list of to-dos. Click the
+				<strong>broom</strong> button to clean up the input field. Click on the List Title to edit it. Tap on <code>Save My Edits Button</code> to save your edits.<br><br>Touch screen devices: Tap on <strong>"Add New List"</strong> to create a topic-related list of To-dos.
+				One tap to mark an item off, click on <strong>"X"</strong> to delete an item. Tap on the List Title to edit it. Click the
 				<strong>broom</strong> button to clean up the input field.</em>If you want to delete all
-				to-dos at once, tap on <strong>the trash button</strong>.<br></p>
-		<!-- end of description -->
-
-		<!-- to do form -->
-		<form name="toDoList">
-			<input type="text" tabindex="1" placeholder="Feed the cat, rule the world" data-bs-toggle="tooltip"
-				data-bs-placement="top" title="Start typing the new list item" name="ListItem" id="input" />
-		</form>
-		<!-- end to-do form -->
-		<!-- button to click input value -->
-		<div onclick="clearInput()" class="button" tabindex="1" data-bs-toggle="tooltip" data-bs-placement="top"
-			title="Click to clear the input field"><span class="material-symbols-outlined">
-				mop
-			</span>
-
-			<!-- &#x1F9F9; -->
-		</div>
-
-<div class="clear-ul button" onclick="clearUl()"  tabindex="2" data-bs-toggle="tooltip" data-bs-placement="top"
-			title="Click to delete all to-dos"><span class="material-symbols-outlined">
-delete_sweep
-</span>
-</div>		<!-- end of button to clear input value -->
-		<!-- button to add new topic unrelated item -->
-		<div onclick="newItem()" class="button" tabindex="3" data-bs-toggle="tooltip" data-bs-placement="top"
-			title="Click to add the new list item">Add New To-do</div>
-		<!-- end of this button -->
-
-		<!-- button to add new topic-related list -->
-		<div onclick="addList()" class="button button2" tabindex="4" data-bs-toggle="tooltip" data-bs-placement="top"
+				to-dos at once, tap on <strong>the trash button</strong>. Tap on <code>Save My Edits Button</code> to save your edits.<br></p>
+		
+		<div onclick="add()" class="button" tabindex="4" data-bs-toggle="tooltip" data-bs-placement="top"
 			title="Click to add the new list">Add New List</div>
-		<!-- end of this button -->
-
-		<!-- the ordered list with to-dos -->
-		<ol id="list"></ol>
-
-		<br />
-
-		<!-- end of ordered list with to-dos -->
-
-		<!-- jQuery dialog when the user doesn't enter a value -->
+		
 		<div id="dialog" title="">
 			<p class="dialog-paragraph">Please enter the list item and press <em>"Add New To-do" button</em>.</p>
 		</div>
-		<!-- end of dialog -->
-		<!-- <audio class="broom" src="assets/sweep.wav"></audio> -->
+		
 	</div>
 	<!-- end of container div -->
 

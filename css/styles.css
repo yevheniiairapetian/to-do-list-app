@@ -22,6 +22,7 @@ display: inline-block;
 input{
 	width: 200px;
 padding: 6px 25px 6px 5px;
+margin-right:4px;
 }
 
 input:focus{
@@ -46,7 +47,9 @@ text-align:center;
 margin-top:2px;
 padding: 8px 18px;
 }
-
+.button-add{
+	margin-right:6px;
+}
 .button:focus{
 	outline:2px solid pink;
 }
@@ -66,6 +69,7 @@ padding: 5px 15px;
 }
 .new-list{
 	margin-bottom:16px;
+	margin-top:14px;
 }
 .save-edits:hover{
 	cursor: pointer;
@@ -80,9 +84,10 @@ padding: 5px 15px;
 .button:hover{
 cursor: pointer;
 opacity: .8;}
-.new-list:hover{
-	cursor: pointer;
-	opacity: .8;}
+/* .new-list:hover{ */
+	/* cursor: pointer; */
+	/* opacity: .8; */
+/* } */
 
 ol {padding-left: 20px;}
 
