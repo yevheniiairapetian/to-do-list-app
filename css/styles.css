@@ -156,3 +156,18 @@ div > crossOutButton {
 	color: #025f70;
 	font-weight: 800;
 }
+
+li > exitButton {
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+div > editButton {
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
