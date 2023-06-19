@@ -5,7 +5,7 @@
 ### 2. Remove a to-do from the list.
 ### 3. Mark the to-do as done by striking through it.
 ### 4. Rearrange the to-dos in the list (mobile and desktop).
-### 5. Delete all to-dos at once (desktop/laptop only).
+### 5. Delete all to-dos at once.
 ### 6. Clear input.
 ### 7. Add an editable topic-related list with the future to-dos that is saved to the user's web storage (currently under development).
 ### 8. The user gets notified when the to-do wasn't entered by means of a modal.
