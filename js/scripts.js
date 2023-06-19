@@ -63,24 +63,32 @@ function newItem(){
       
      //3(i). Adding the delete button "X": 
 
-    let editButton = $("<editButton></editButton>");
-         editButton.append(document.createTextNode("+"));
-         li.append(editButton);
     
-         editButton.on("click", editList);
+         
 
        let crossOutButton = $("<crossOutButton></crossOutButton>");
          crossOutButton.append(document.createTextNode("X"));
          li.append(crossOutButton);
     
          crossOutButton.on("click", deleteListItem);
+
+
+        //  let editButton = $("<editButton></editButton>");
+        //  editButton.append(document.createTextNode('Edit'));
+        //  li.append(editButton);
+    
+        //  editButton.on("click", function(){
+        //   li.attr("contenteditable", "true")
+      // });
+
+
      //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
        function deleteListItem(){
              li.addClass("delete")
          }
-function editList(){
-             li.attr('contenteditable', "true")
-         }
+// function editList(){
+//              li.attr('contenteditable',"true");
+//          }
      // 4. Reordering the items: 
      $('#list').on('mousedown', function(event){
       selectListItems(event);
@@ -144,6 +152,7 @@ function editList(){
         //  div.on("touchend", crossOut);
          
         //  li.on('doubletap', crossOut);
+        
       
      //3(i). Adding the delete button "X": 
        let crossOutButton = $("<crossOutButton></crossOutButton>");
