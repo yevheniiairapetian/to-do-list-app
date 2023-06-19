@@ -1,22 +1,25 @@
 # To-do list app
 ## This repo contains a simple responsive to-do app (in progress).
 ## Functions:
-### 1. Add a to-do to the list.
+### 1. Add (an) editable topic-related list(s) with the future to-dos that is saved to the user's web storage (currently under development).
+### 2. Add a to-do to a list.
 ### 2. Remove a to-do from the list.
 ### 3. Mark the to-do as done by striking through it.
-### 4. Rearrange the to-dos in the list (mobile and desktop).
+### 4. Rearrange the to-dos in the list (desktop).
 ### 5. Delete all to-dos at once.
 ### 6. Clear input.
-### 7. Add an editable topic-related list with the future to-dos that is saved to the user's web storage (currently under development).
-### 8. The user gets notified when the to-do wasn't entered by means of a modal.
+### 7. The user gets notified when the to-do wasn't entered by means of a modal.
+### 8. All lists are edited independently.
 ### Technologies used:
 #### Html
 #### CSS
 #### jQuery
 #### Bootstrap
+#### Google Fonts
 ### Project dependencies:
 #### jQuery
 #### Bootstrap
+#### Google Fonts
 ### You can find the [App's URL here](https://yevheniiairapetian.github.io/to-do-list-app/)
 #### To clone the app use the `git clone git@github.com:yevheniiairapetian/to-do-list-app.git`command 
 #### or download directly pressing on `<> Code` button > `Download ZIP`. 
