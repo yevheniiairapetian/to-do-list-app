@@ -158,6 +158,7 @@ div > crossOutButton {
 }
 
 li > editButton {
+padding: 5px;
 	background: none;
 	border: none;
 	float: right;
@@ -165,6 +166,7 @@ li > editButton {
 	font-weight: 800;
 }
 div > editButton {
+padding: 5px;
 	background: none;
 	border: none;
 	float: right;
