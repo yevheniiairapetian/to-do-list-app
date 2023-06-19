@@ -86,7 +86,7 @@ opacity: .8;}
 
 ol {padding-left: 20px;}
 
-ol li {padding: 5px;color:#000;}
+ol li {padding: 10px 5px;color:#000;}
 
 ol li:nth-child(even){background: #dfdfdf;}
 
