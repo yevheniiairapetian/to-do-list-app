@@ -20,7 +20,12 @@ display: inline-block;
 }
 
 input{
-padding: 4px 15px 4px 5px;
+	width: 200px;
+padding: 6px 25px 6px 5px;
+}
+
+input:focus{
+	outline:2px solid pink;
 }
 .dropped-to-div{
 	width:400px;
@@ -39,7 +44,11 @@ color:#ffffff;
 border-radius: 5px;
 text-align:center;
 margin-top:2px;
-padding: 5px 15px;
+padding: 8px 18px;
+}
+
+.button:focus{
+	outline:2px solid pink;
 }
 
 .material-symbols-outlined{
@@ -123,6 +132,10 @@ li:hover{
 }
 .delete {
 	display: none;
+}
+
+.list-title:focus{
+	outline:2px solid pink;
 }
 
 li > crossOutButton {
