@@ -123,6 +123,10 @@ li:hover{
 	font-weight: bold;
  }
 
+ button.ui-dialog-titlebar-close{
+	color:white;
+	padding:5px;
+ }
  .dialog-paragraph{
 	background-color: white;
 	padding:10px 20px;
