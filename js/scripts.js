@@ -139,7 +139,7 @@ function add() {
   
   crossOutButtonList.on("click", deleteList);
   function deleteList() {
-    $('.new-list').addClass("delete")
+    $(div).addClass("delete")
   }
   $('.modal').on('click', function(){
         
