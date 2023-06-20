@@ -96,7 +96,7 @@ function add() {
     let li = $("<li></li>");
     let inputValue = input.val();
     if (inputValue === '') {
-      $('.modal').show();
+      $('.modal').show(600);
      
     
     } else {
@@ -143,25 +143,9 @@ function add() {
   }
   $('.modal').on('click', function(){
         
-    $('.modal').hide();
+    $('.modal').hide(700);
 })
 }
-
-
-
-
-
-
-// btnClearLi.on('click', clearUl);
-
-
-
-
-
-
-
-
-
 
 
 function saveEdits() {
