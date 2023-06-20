@@ -153,6 +153,7 @@ li > crossOutButton {
 	float: right;
 	color: #025f70;
 	font-weight: 800;
+	cursor: pointer;
 }
 div > crossOutButton {
 	background: none;
@@ -160,22 +161,22 @@ div > crossOutButton {
 	float: right;
 	color: #025f70;
 	font-weight: 800;
+	cursor: pointer;
 }
 
-li > editButton {
-	padding-right:10px;
+.new-list > crossOutButtonList{
 	background: none;
 	border: none;
 	float: right;
 	color: #025f70;
 	font-weight: 800;
+	cursor: pointer;
 }
-div > editButton {
-	padding-right:10px;
 
-	background: none;
-	border: none;
-	float: right;
-	color: #025f70;
-	font-weight: 800;
+.add-list{
+	margin-top: 16px;
+}
+
+.update{
+	margin-bottom:0px;
 }

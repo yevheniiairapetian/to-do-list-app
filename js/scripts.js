@@ -59,25 +59,27 @@ function add() {
   let saveEdits = $('<br><br><input type="button" tabindex="5" class="save-edits" value="Save My Edits" data-bs-toggle="tooltip" data-bs-placement="right" title="Click to save your edits" onclick="saveEdits()"/>');
   div.append(saveEdits);
 
-
+  let crossOutButtonList = $("<crossOutButtonList></crossOutButtonList>");
+  crossOutButtonList.append(document.createTextNode("X"));
+  crossOutButtonList.attr('title', 'Click to delete list');
+  $('.new-list').append(crossOutButtonList);
 
   ol.on('mousedown', function (event) {
     selectListItems(event);
   })
-  //  ol.on("taphold", function(event){
-  //   selectListItems(event);
-  //  });
 
   function selectListItems(event) {
     if (event.ctrlKey) {
       ol.text('');
-      // } else {
-      //   text = "The Ctrl key was NOT pressed!";
-      // }
-      // document.getElementById("demo").innerHTML = text;
+      
     }
   }
-  //  $('#input').on('hover', tooltip());
+  //  ol.on("taphold", function(event){
+  //   selectListItems(event);
+  //  });
+
+ 
+  
 
   btnClearInput.on('click', clearInput);
   function clearInput() {
@@ -110,21 +112,34 @@ function add() {
     function crossOut() {
       li.toggleClass("strike");
     }
+
+     
     let crossOutButton = $("<crossOutButton></crossOutButton>");
     crossOutButton.append(document.createTextNode("X"));
+    crossOutButton.attr('title', 'Click to delete to-do');
     li.append(crossOutButton);
 
     crossOutButton.on("click", deleteListItem);
+
+    
+    btnClearLi.on('click', function () {
+      ol.text('');
+    })
+    
 
 
     function deleteListItem() {
       li.addClass("delete")
     }
-    btnClearLi.on('click', function () {
-      ol.text('');
-    })
-
+    
+    
   }
+  
+  crossOutButtonList.on("click", deleteList);
+  function deleteList() {
+    $('.new-list').addClass("delete")
+  }
+  
 }
 
 
