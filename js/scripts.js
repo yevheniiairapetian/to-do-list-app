@@ -97,17 +97,7 @@ function add() {
     let inputValue = input.val();
     if (inputValue === '') {
       $('.modal').show();
-      // $('.btn-close').on('click', function(){
-      //   $('.modal').hide();
-      // $('.btn-secondary').on('click', function(){
-      //     $('.modal').hide();
-      // })
-      $('.modal').on('click', function(){
-        
-          $('.modal').hide();
-      })
-      // })
-      
+     
     
     } else {
 
@@ -151,7 +141,10 @@ function add() {
   function deleteList() {
     $('.new-list').addClass("delete")
   }
-  
+  $('.modal').on('click', function(){
+        
+    $('.modal').hide();
+})
 }
 
 
