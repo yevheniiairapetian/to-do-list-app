@@ -82,9 +82,24 @@
 		<div onclick="add()" class="button add-list" tabindex="4" data-bs-toggle="tooltip" data-bs-placement="top"
 			title="Click to add the new list">Add New List</div>
 
-		<div id="dialog" title="">
-			<p class="dialog-paragraph">Please enter the list item and press <em>"Add New To-do" button</em>.</p>
-		</div>
+			
+			  <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h1 class="modal-title fs-5" id="exampleModalLabel">Notification</h1>
+					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p class="dialog-paragraph">Please enter the list item and press <em>"Add New To-do" button</em>.</p>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
 
 	</div>
 	<!-- end of container div -->

@@ -96,8 +96,18 @@ function add() {
     let li = $("<li></li>");
     let inputValue = input.val();
     if (inputValue === '') {
-      $('#dialog').dialog();
-      $('button.ui-dialog-titlebar-close').on('touchend', $('#dialog').hide())
+      $('.modal').show();
+      // $('.btn-close').on('click', function(){
+      //   $('.modal').hide();
+      // $('.btn-secondary').on('click', function(){
+      //     $('.modal').hide();
+      // })
+      $('.modal').on('click', function(){
+        
+          $('.modal').hide();
+      })
+      // })
+      
     
     } else {
 
