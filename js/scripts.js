@@ -97,6 +97,8 @@ function add() {
     let inputValue = input.val();
     if (inputValue === '') {
       $('#dialog').dialog();
+      $('button.ui-dialog-titlebar-close').on('touchend', $('#dialog').hide())
+    
     } else {
 
       li.append(inputValue);
