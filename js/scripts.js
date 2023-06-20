@@ -62,7 +62,7 @@ function add() {
   let crossOutButtonList = $("<crossOutButtonList></crossOutButtonList>");
   crossOutButtonList.append(document.createTextNode("X"));
   crossOutButtonList.attr('title', 'Click to delete list');
-  $('.new-list').append(crossOutButtonList);
+  $(div).append(crossOutButtonList);
 
   ol.on('mousedown', function (event) {
     selectListItems(event);
