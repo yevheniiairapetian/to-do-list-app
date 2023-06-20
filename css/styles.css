@@ -125,7 +125,8 @@ li:hover{
 
  button.ui-dialog-titlebar-close{
 	color:white;
-	padding:5px;
+	width:18px;
+	height:18px;
  }
  .dialog-paragraph{
 	background-color: white;
