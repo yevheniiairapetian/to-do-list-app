@@ -94,7 +94,8 @@ function add() {
   function newItem() {
 
     let li = $("<li></li>");
-    let inputValue = input.val();
+    let htmlRegexG = /<(?:"[^"]*"['"]*|'[^']*'['"]*|[^'">])+>/g;
+    let inputValue = input.val().replace(htmlRegexG, '');
     if (inputValue === '') {
       $('.modal').show(600);
      
