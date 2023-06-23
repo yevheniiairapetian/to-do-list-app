@@ -5,27 +5,35 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>To Do List App</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-		
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
 	<link href="css/styles.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+		integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 
 <body>
+	<nav class="navbar">
+		<h3 class="ps-3 pt-2">To Do <small class="text-muted">List App</small></h3>
+	</nav>
 	<!-- start of container div -->
-	<div class="container">
+	<div class="container-fluid">
 
 		<!-- description -->
-		<h3>To Do <small class="text-muted">List App</small></h3>
+
 
 		<div class="accordion accordion-flush" id="accordionExample">
 			<div class="accordion-item">
 				<h2 class="accordion-header" id="headingOne">
 					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-						data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Desktop or laptop
+						data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Desktop or
+						laptop
 						devices:</button>
 				</h2>
 				<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -38,7 +46,8 @@
 						to-dos at once, press <strong><code>CTRL + Left Mouse Click</code></strong> on any to-do or
 						click the <strong> trash button</strong>. Click the
 						<strong>broom</strong> button to clean up the input field. Click on the List Title to edit it.
-						Click on <code>Save My Edits Button</code> to save your edits. And click on <strong>"X"</strong> to delete the whole list.
+						Click on <code>Save My Edits Button</code> to save your edits. And click on <strong>"X"</strong>
+						to delete the whole list.
 					</div>
 				</div>
 			</div>
@@ -57,7 +66,8 @@
 						to reorder. Tap on the List Title to edit it. Click the
 						<strong>broom</strong> button to clean up the input field. If you want to delete all
 						to-dos at once, tap on <strong>the trash button</strong>. Tap on
-						<code>Save My Edits Button</code> to save your edits. And tap on <strong>"X"</strong> to delete the whole list.
+						<code>Save My Edits Button</code> to save your edits. And tap on <strong>"X"</strong> to delete
+						the whole list.
 					</div>
 				</div>
 			</div>
@@ -82,25 +92,28 @@
 			title="Click to add the new list">Add New List</div>
 
 		<div class="row">
-			
+
 		</div>
-			  <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-				  <div class="modal-content">
+		<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
 					<div class="modal-header">
-					  <h1 class="modal-title fs-5" id="exampleModalLabel">Notification</h1>
-					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						<h1 class="modal-title fs-5" id="exampleModalLabel">Notification</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">
-						<p class="dialog-paragraph">Please type in the new to-do and click <em>"Add New To-do" button</em>.</p>
+						<p class="dialog-paragraph">Please type in the new to-do and click <em>"Add New To-do"
+								button</em>.</p>
 					</div>
 					<div class="modal-footer">
-					  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 					</div>
-				  </div>
 				</div>
-			  </div>
-
+			</div>
+		</div>
+		<!-- <footer class="text-center">
+			<p><em>To-Do List App, 2023</em></p>
+		</footer> -->
 
 	</div>
 	<!-- end of container div -->
@@ -108,28 +121,28 @@
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-	integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"
-	integrity="sha512-FbnNPigZZCDhMM22ezvan3xN2/E/oBd9GxqtpiBcK1VZuzBAt0V1EmTtteoYuYxWrqwqBA6zb1OTB887QSjAsw=="
-	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		integrity="sha512-FbnNPigZZCDhMM22ezvan3xN2/E/oBd9GxqtpiBcK1VZuzBAt0V1EmTtteoYuYxWrqwqBA6zb1OTB887QSjAsw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
 		integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="js/jquery.ui.touch-punch.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
-	integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
-	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
-<!-- <script src="https://hammerjs.github.io/dist/hammer.js"></script> -->
-
-
+	<!-- <script src="https://hammerjs.github.io/dist/hammer.js"></script> -->
 
 
 
-<script src="js/scripts.js"></script>
+
+
+	<script src="js/scripts.js"></script>
 </body>
 
 </html>
