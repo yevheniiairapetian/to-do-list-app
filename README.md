@@ -20,10 +20,10 @@
 #### jQuery v5
 #### Bootstrap v3
 #### Google Fonts
-## You can find the [App's URL here](https://yevheniiairapetian.github.io/to-do-list-app/)
-## To clone the app use the `git clone git@github.com:yevheniiairapetian/to-do-list-app.git`command 
-## or download directly pressing on `<> Code` button > `Download ZIP`. 
-## Then open the `index.html` file to view the app in your preferred browser.
-## Feel free to contact me [via LinkenIn](https://www.linkedin.com/in/yevhenii-airapetian/) or [by email](mailto:sonkozhenia11@gmail.com)! Have a nice day!
+#### You can find the [App's URL here](https://yevheniiairapetian.github.io/to-do-list-app/)
+#### To clone the app use the `git clone git@github.com:yevheniiairapetian/to-do-list-app.git`command 
+#### or download directly pressing on `<> Code` button > `Download ZIP`. 
+#### Then open the `index.html` file to view the app in your preferred browser.
+#### Feel free to contact me [via LinkenIn](https://www.linkedin.com/in/yevhenii-airapetian/) or [by email](mailto:sonkozhenia11@gmail.com)! Have a nice day!
 
 
