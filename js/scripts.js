@@ -25,7 +25,7 @@ function checkEdits() {
 
 function add() {
   let row = $('.row');
-  let div = $("<div class='new-list col-lg-4 col-sm-12 col-md-6 mt-5'></div>");
+  let div = $("<div class='new-list col-lg-4 col-sm-12 col-md-6 mt-5 text-center'></div>");
   row.append(div);
   let title = $("<h4 class='list-title'></h4>");
   title.text('New List');
