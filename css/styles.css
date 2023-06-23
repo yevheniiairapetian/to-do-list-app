@@ -49,6 +49,21 @@ h3{
 .navbar{
 	background-color:#cfe2ff;
 	color:#fc999b;
+	
+}
+
+h3{
+	animation: navbar 1s ease-in-out;
+}
+
+@keyframes navbar{
+	0%{margin-left:24px;
+	
+	}
+
+	100%{
+		margin-left:0px;
+	}
 }
 
 .dropped-to-div{
@@ -69,9 +84,18 @@ border-radius: 5px;
 text-align:center;
 margin-top:2px;
 padding: 8px 18px;
+border:none;
+outline: 1px solid pink;
 }
+
+div.modal-header{
+	background-color:#cfe2ff;
+}
+
+
 .button-add{
 	margin-right:6px;
+	width:192px;
 }
 .button:focus{
 	outline:2px solid pink;
@@ -89,10 +113,12 @@ border-radius: 5px;
 text-align:center;
 margin-top:2px;
 padding: 5px 15px;
+width: 46%;
 }
 .new-list{
 	margin-bottom:16px;
 	background: #cfe2ff;
+	position: relative;
 }
 .save-edits:hover{
 	cursor: pointer;
@@ -194,9 +220,11 @@ div > crossOutButton {
 
 
 .new-list > crossOutButtonList{
+	position:absolute;
+	top:-12%;
+	left:49%;
 	background: none;
 	border: none;
-	float: right;
 	color: #025f70;
 	font-weight: 800;
 	cursor: pointer;

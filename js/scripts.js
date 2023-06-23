@@ -5,6 +5,7 @@ function checkEdits() {
   if (localStorage.userEdits != null)
     $(".list-title").html(localStorage.userEdits);
 }
+
 // $( function() {
 //   $(document).tooltip();
 // } );
