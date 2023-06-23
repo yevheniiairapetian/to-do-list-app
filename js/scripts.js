@@ -6,6 +6,9 @@ function checkEdits() {
     $(".list-title").html(localStorage.userEdits);
 }
 
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
 // $( function() {
 //   $(document).tooltip();
 // } );
@@ -42,9 +45,9 @@ function add() {
   let form = $('<br><form></form>');
   div.append(form);
 
-  let input = $('<input type="text" tabindex="1" placeholder="Feed the cat, rule the world" data-bs-toggle="tooltip" data-bs-placement="top" title="Start typing the new list item"/>');
+  let input = $('<input type="text" tabindex="1" placeholder="Feed the cat, rule the world"/>');
   form.append(input);
-  let btnClearInput = $('<div class="button" tabindex="1" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to clear the input field"><span class="material-symbols-outlined">mop</span></div>');
+  let btnClearInput = $('<div class="button" tabindex="1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Click to clear the input field"><span class="material-symbols-outlined">mop</span></div>');
   div.append(btnClearInput);
   let ol = $('<ol></ol>');
 
@@ -52,13 +55,13 @@ function add() {
 
 
 
-  let btnNewToDo = $('<div class="button button-add" tabindex="3" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to add the new list item">Add New To-do</div>');
+  let btnNewToDo = $('<div class="button button-add" tabindex="3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Click to add the new list item">Add New To-do</div>');
   div.append(btnNewToDo);
 
-let btnClearLi = $('<div class="clear-ul button" tabindex="2" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to delete all to-dos"><span class="material-symbols-outlined">delete</span></div>');
+let btnClearLi = $('<div class="clear-ul button" tabindex="2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Click to delete all to-dos"><span class="material-symbols-outlined">delete</span></div>');
   div.append(btnClearLi);
 
-  let saveEdits = $('<br><br><input type="button" tabindex="5" class="save-edits" value="Save My Edits" data-bs-toggle="tooltip" data-bs-placement="right" title="Click to save your edits" onclick="saveEdits()"/>');
+  let saveEdits = $('<br><br><input type="button" tabindex="5" class="save-edits" value="Save My Edits" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Click to save your edits" onclick="saveEdits()"/>');
   div.append(saveEdits);
 
   let crossOutButtonList = $("<crossOutButtonList></crossOutButtonList>");
