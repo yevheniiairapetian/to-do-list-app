@@ -43,10 +43,12 @@ input:focus{
 
 h3{
 	background-color:#cfe2ff;
+	
 }
 
 .navbar{
 	background-color:#cfe2ff;
+	color:#fc999b;
 }
 
 .dropped-to-div{
