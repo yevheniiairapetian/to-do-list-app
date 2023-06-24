@@ -3,14 +3,18 @@
 
 html{
 	height:100%;
+	width:100%;
 }
 body {
 font: normal normal 14px/16px "Open Sans", sans-serif;
 height:100%;
+
 }
 
-.row{
+div.row{
 	background: #cfe2ff;
+	margin-left:0;
+	margin-right:0;
 }
 
 footer{
@@ -52,6 +56,7 @@ h3{
 .navbar{
 	background-color:#cfe2ff;
 	color:#fc999b;
+	
 	
 }
 
