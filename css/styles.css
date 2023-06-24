@@ -260,6 +260,24 @@ div > crossOutButton {
 }
 
 @media screen and (max-width:275px){
+	button.accordion-button.collapsed, .update, button.accordion-button, div.accordion-body{
+		font-size:14px;
+	}
+	.list-title{
+		font-size:16px;
+	}
+	.navbar > h3, .h3 > small{
+		font-size: 18px;
+	}
+
+	nav.navbar{
+		position:static;
+	}
+
+	div.add-list{
+		font-size:14px;
+	}
+
 	div.button-add{
 		font-size:10px;
 		width:70%;
