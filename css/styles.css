@@ -99,8 +99,8 @@ div.modal-header{
 }
 
 .clear-input{
-border-top-left-radius: none;
-border-bottom-left-radius: none;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
 }
 
 .button:focus{
