@@ -55,7 +55,7 @@ function add() {
 
 
 
-  let btnNewToDo = $('<div class="button button-add" tabindex="3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Click to add the new list item">Add New To-do</div>');
+  let btnNewToDo = $('<div class="button button-add" tabindex="3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Click to add the new list item">Add To-do</div>');
   div.append(btnNewToDo);
 
 let btnClearLi = $('<div class="clear-ul button" tabindex="2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Click to delete all to-dos"><span class="material-symbols-outlined">delete</span></div>');
