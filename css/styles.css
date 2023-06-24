@@ -33,12 +33,15 @@ display: inline-block;
 
 input{
 	width: 200px;
-padding: 6px 25px 6px 5px;
-margin-right:4px;
+padding: 8px 25px 8px 5px;
+border:1px solid pink;
+border-right:none;
+border-top-right-radius: 0px 0px;
+border-bottom-right-radius: 0px 0px;
 }
 
 input:focus{
-	outline:2px solid pink;
+	outline:none;
 }
 
 h3{
@@ -102,8 +105,10 @@ border-bottom-right-radius: 0px 0px;
 }
 
 div.clear-input{
+	
 border-top-left-radius: 0px 0px;
 border-bottom-left-radius: 0px 0px;
+border-left: 1px solid #fff;
 }
 
 .clear-ul{
@@ -127,7 +132,8 @@ border-radius: 5px;
 text-align:center;
 margin-top:2px;
 padding: 5px 15px;
-width: 46%;
+width: 252px;
+
 }
 .new-list{
 	margin-bottom:16px;
@@ -251,4 +257,31 @@ div > crossOutButton {
 
 .update{
 	margin-bottom:0px;
+}
+
+@media screen and (max-width:320px){
+	div.add-list{
+		width:90%;
+	}
+	.save-edits{
+		width: 80%;
+		font-size:12px;
+	}
+	div.button-add{
+		width:60%;
+		font-size:12px;
+	}
+	div.clear-ul{
+		border-radius:5px;
+		font-size:12px;
+	}
+	div.clear-input{
+		border-radius:5px;
+		border-left:1px solid pink;
+		font-size:12px;
+	}
+	input{
+		padding: 2px 25px 6px 5px;
+		font-size:12px;
+	}
 }
