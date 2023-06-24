@@ -263,9 +263,11 @@ div > crossOutButton {
 	button.accordion-button.collapsed, .update, button.accordion-button, div.accordion-body{
 		font-size:14px;
 	}
-
+	.modal-title, .modal-body, .modal-footer{
+		font-size:13px;
+	}
 	div.container-fluid{
-		margin-top:8px;
+		margin-top:4px;
 	}
 	.list-title{
 		font-size:16px;
