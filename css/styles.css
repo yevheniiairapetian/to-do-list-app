@@ -35,7 +35,7 @@ form {
 display: inline-block;
 }
 
-input{
+.input-text{
 	width: 200px;
 padding: 8px 25px 8px 5px;
 border:1px solid pink;
@@ -44,13 +44,8 @@ border-top-right-radius: 0px 0px;
 border-bottom-right-radius: 0px 0px;
 }
 
-input:focus{
+.input-text:focus{
 	outline:none;
-}
-
-h3{
-	background-color:#cfe2ff;
-	
 }
 
 .navbar{
@@ -60,7 +55,7 @@ h3{
 	
 }
 
-h3{
+h3{	background-color:#cfe2ff;
 	animation: navbar 1s ease-in-out;
 }
 
@@ -74,13 +69,13 @@ h3{
 	}
 }
 
-.dropped-to-div{
+/* .dropped-to-div{
 	width:400px;
 	height: 400px;
 }
-.broom{
+.broom{ */
 	/* display:none; */
-}
+/* } */
 /* .button-flip{
 	transform:translate(10px, 10px);
 } */
@@ -128,7 +123,7 @@ border-bottom-left-radius: 0px 0px;
 .material-symbols-outlined{
 	font-size:0.9em;
 }
-.save-edits{
+input.save-edits{
 	border:none;
 	display: inline-block;
 background-color:#fc999b;
@@ -137,7 +132,7 @@ border-radius: 5px;
 text-align:center;
 margin-top:2px;
 padding: 5px 15px;
-width: 252px;
+/* width: 40%; */
 
 }
 .new-list{
@@ -145,7 +140,7 @@ width: 252px;
 	background: #cfe2ff;
 	position: relative;
 }
-.save-edits:hover{
+input.save-edits:hover{
 	cursor: pointer;
 	opacity: .8;
 }
@@ -264,37 +259,66 @@ div > crossOutButton {
 	margin-bottom:0px;
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:275px){
+	div.button-add{
+		font-size:10px;
+		width:70%;
+	}
+	input.save-edits{
+		width: 100%;
+		font-size:10px;
+	}
+	div.clear-ul{
+		border-radius:5px;
+		font-size:10px;
+	}
+	input.input-text{
+		width:100%;
+	}
+	div.clear-input{
+		width:85%;
+		font-size:10px;
+		border:none;
+		margin-top: 10px;
+		border-top-left-radius:5px 5px;
+		border-bottom-left-radius:5px 5px;
+	}
+}
+
+@media screen and (min-width:276px) (max-width:320px){
 	div.add-list{
 		width:90%;
 	}
-	.save-edits{
+	input.save-edits{
 		width: 80%;
 		font-size:12px;
 	}
 	div.button-add{
 		width:60%;
-		font-size:12px;
+		font-size:10px;
 	}
 	div.clear-ul{
 		border-radius:5px;
-		font-size:12px;
+		font-size:10px;
 	}
 	div.clear-input{
 		border-radius:5px;
 		border-left:1px solid pink;
-		font-size:12px;
+		font-size:10px;
+		width:100%;
 	}
-	input{
+	input.input-text{
+		width:194px;
 		padding: 2px 25px 6px 5px;
-		font-size:12px;
+		font-size:10px;
 	}
 
 	.list-title{
-		font-size:16px;
+		font-size:10px;
 	}
 
 	.update{
-		font-size:14px;
+		font-size:10px;
 	}
 }
+

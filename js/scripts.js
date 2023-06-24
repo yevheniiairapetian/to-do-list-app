@@ -45,7 +45,7 @@ function add() {
   let form = $('<br><form></form>');
   div.append(form);
 
-  let input = $('<input type="text" tabindex="1" placeholder="Feed the cat, rule the world"/>');
+  let input = $('<input type="text" class="input-text" tabindex="1" placeholder="Feed the cat, rule the world"/>');
   form.append(input);
   let btnClearInput = $('<div class="clear-input button" tabindex="1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Click to clear the input field"><span class="material-symbols-outlined">mop</span></div>');
   div.append(btnClearInput);
