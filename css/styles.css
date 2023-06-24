@@ -94,8 +94,9 @@ div.modal-header{
 
 
 .button-add{
-	margin-right:6px;
 	width:192px;
+border-top-right-radius: none;
+border-bottom-right-radius: none;
 }
 
 .clear-input{
