@@ -76,6 +76,8 @@ h3{
 /* .button-flip{
 	transform:translate(10px, 10px);
 } */
+
+
 .button{
 display: inline-block;
 background-color:#fc999b;
@@ -95,13 +97,18 @@ div.modal-header{
 
 div.button-add{
 	width:200px;
-border-top-right-radius: none;
-border-bottom-right-radius: none;
+border-top-right-radius: 0px 0px;
+border-bottom-right-radius: 0px 0px;
 }
 
 div.clear-input{
-border-top-left-radius: none;
-border-bottom-left-radius: none;
+border-top-left-radius: 0px 0px;
+border-bottom-left-radius: 0px 0px;
+}
+
+.clear-ul{
+	border-top-left-radius: 0px 0px;
+border-bottom-left-radius: 0px 0px;
 }
 
 .button:focus{
