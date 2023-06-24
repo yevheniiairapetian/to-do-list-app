@@ -97,6 +97,12 @@ div.modal-header{
 	margin-right:6px;
 	width:192px;
 }
+
+.clear-input{
+border-top-left-radius: none;
+border-bottom-left-radius: none;
+}
+
 .button:focus{
 	outline:2px solid pink;
 }
