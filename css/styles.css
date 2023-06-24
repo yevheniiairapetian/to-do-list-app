@@ -284,4 +284,12 @@ div > crossOutButton {
 		padding: 2px 25px 6px 5px;
 		font-size:12px;
 	}
+
+	.list-title{
+		font-size:16px;
+	}
+
+	.update{
+		font-size:14px;
+	}
 }
