@@ -95,13 +95,13 @@ div.modal-header{
 
 .button-add{
 	width:192px;
-border-top-right-radius: none;
-border-bottom-right-radius: none;
+border-top-right-radius: none !important;
+border-bottom-right-radius: none !important;
 }
 
 .clear-input{
-border-top-left-radius: none;
-border-bottom-left-radius: none;
+border-top-left-radius: none !important;
+border-bottom-left-radius: none !important;
 }
 
 .button:focus{
