@@ -31,7 +31,7 @@ This repo contains a simple jQuery and Bootstrap responsive to-do app (in progre
 - Bootstrap v5.2.3
 - Google Fonts
 ## Live Version:
-The app is live [here]:(https://yevheniiairapetian.github.io/to-do-list-app/)
+The app is live [here](https://yevheniiairapetian.github.io/to-do-list-app/)
 
 ## Clone and Preview
 To clone the app use the following command:
