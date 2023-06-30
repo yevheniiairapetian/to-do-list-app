@@ -217,6 +217,11 @@ li:hover{
 	display: none;
 }
 
+.list-title{
+	width:90%;
+	margin: 0 auto 10px auto;
+}
+
 .list-title:focus{
 	outline:2px solid pink;
 }
@@ -241,8 +246,8 @@ div > crossOutButton {
 
 .new-list > crossOutButtonList{
 	position:absolute;
-	top:-12%;
-	left:49%;
+	top:0;
+	left:94%;
 	background: none;
 	border: none;
 	color: #025f70;
