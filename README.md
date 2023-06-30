@@ -12,7 +12,7 @@ This repo contains a simple jQuery and Bootstrap responsive to-do app (in progre
 - Clear input.
 - The user gets notified when the to-do wasn't entered by means of a modal.
 - All lists are edited independently.
-### Technologies Used:
+## Technologies Used:
 - Html5
 - CSS3
 - jQuery
