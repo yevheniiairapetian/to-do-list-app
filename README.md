@@ -36,7 +36,7 @@ The app is live [here](https://yevheniiairapetian.github.io/to-do-list-app/)
 ## Clone and Preview
 To clone the app use the following command:
 ```console git clone git@github.com:yevheniiairapetian/to-do-list-app.git```  
-Or download directly by clicking on <> Code button > Download ZIP. Then open the index.html file to view the app in your browser.
+Or download directly by clicking on <> Code button > Download ZIP. Then navigate to the folder ```cd to-do-list-app``` or open the index.html file directly in the browser.
 
 ## Contact:
 Feel free to contact me via[ LinkedIn](https://www.linkedin.com/in/yevhenii-airapetian/) or  
