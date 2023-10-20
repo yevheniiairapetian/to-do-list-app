@@ -36,7 +36,7 @@ This repo contains a simple responsive to-do app developed with jQuery, jQuery U
 - Bootstrap v5.2.3 for design/responsive design, accordions
 - Google Fonts for fonts
 - Github pages for deployment
-- 
+
 ## Live Version:
 The app is live [here](https://yevheniiairapetian.github.io/to-do-list-app/)
 
