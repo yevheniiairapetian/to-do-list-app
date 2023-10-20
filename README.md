@@ -1,35 +1,42 @@
 # To-do list app
 
 ## Description:
-This repo contains a simple jQuery and Bootstrap responsive to-do app (in progress)..
-## Functions:
-- Add (an) editable topic-related list(s) with the future to-dos that is saved to the user's web storage (currently under development).
+This repo contains a simple responsive to-do app developed with jQuery, jQuery UI, jQuery Mobile, Popper.js, and Bootstrap
+
+## Key Features:
+- The user can read a simple guide on how to use the app on mobile/desktop in the form of a Bootstrap accordion
+- Add/delete a list with the future to-dos (the title can be edited)
+- The list can be saved to the user's web storage (currently under development).
 - Add a to-do to a list.
 - Remove a to-do from the list.
 - Mark the to-do as done by striking through it.
-- Rearrange the to-dos in the list (desktop and touch-screen).
+- Rearrange the to-dos in the list.
 - Delete all to-dos at once.
 - Clear input.
 - The user gets notified when the to-do wasn't entered by means of a modal.
 - All lists are edited independently.
+- The app is responsive
+  
 ## Technologies Used:
 - Html5
 - CSS3
 - jQuery
 - jQuery Mobile
 - jQuery UI
-- Popper JS
+- Popper.js
 - Bootstrap
 - Google Fonts
 
 ## Project dependencies:
-- jQuery v3.7.0
-- jQuery Mobile v1.4.5
-- jQuery UI v1.13.2
-- jQuery UI Touch Punch v0.2.3
-- Popper JS v2.11.8
-- Bootstrap v5.2.3
-- Google Fonts
+- jQuery v3.7.0 for DOM manipulation and interactivity
+- jQuery Mobile v1.4.5 for enabling the mobile functionality
+- jQuery UI v1.13.2 for enabling the mobile functionality
+- jQuery UI Touch Punch v0.2.3 enabling the mobile functionality
+- Popper.js v2.11.8 for modal windows
+- Bootstrap v5.2.3 for design/responsive design, accordions
+- Google Fonts for fonts
+- Github pages for deployment
+- 
 ## Live Version:
 The app is live [here](https://yevheniiairapetian.github.io/to-do-list-app/)
 
