@@ -21,6 +21,7 @@ This repo contains a simple responsive to-do app developed with jQuery, jQuery U
 <a href="https://ibb.co/RpRdXd2"><img src="https://i.ibb.co/gMkh0hy/2023-10-04-18h38-48.png" alt="2023-10-04-18h38-48" border="0"></a>   
 ## Project In Use Preview
 _Please click on the video below to watch it_   
+
 [![Watch the video](https://i.ibb.co/gMkh0hy/2023-10-04-18h38-48.png)](https://streamable.com/yw6mtw)
   
 ## Technologies Used:
