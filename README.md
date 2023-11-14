@@ -1,7 +1,7 @@
-# To-do list app
+# To-do-list app
 
 ## Description:
-This repo contains a simple responsive to-do app developed with jQuery, jQuery UI, jQuery Mobile, Popper.js, and Bootstrap
+This repository contains a simple responsive to-do app developed with jQuery, jQuery UI, jQuery Mobile, Popper.js, and Bootstrap
 
 ## Key Features:
 - The user can read a simple guide on how to use the app on mobile/desktop in the form of a Bootstrap accordion
@@ -53,7 +53,7 @@ To clone the app use the following command:
 Or download directly by clicking on <> Code button > Download ZIP. Then navigate to the folder ```cd to-do-list-app``` or open the index.html file directly in the browser.
 
 ## Contact:
-Feel free to contact me via[ LinkedIn](https://www.linkedin.com/in/yevhenii-airapetian/) or  
+Feel free to contact me via[ LinkedIn](https://www.linkedin.com/in/yevheniiairapetian/) or  
 [email](mailto:contact@yevheniiairapetian.com) or 
 via the contact information on the [website](https://yevheniiairapetian.github.io/portfolio-website/contact.html) 
 
